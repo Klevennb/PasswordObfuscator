@@ -2,8 +2,8 @@ import java.util.*;
 
 public class Obfuscate {
 
-    static void checkIfFits(int height, int width) {
-        if (height <= 45 && width <= 60) {
+    static void checkIfFits(String password) {
+        if (password.length < 5 ) {
             throw new ArithmeticException("To Small: Will Fall Out");
         } else {
             System.out.println("Big Nuff");
