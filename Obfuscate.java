@@ -2,13 +2,20 @@ import java.util.*;
 
 public class Obfuscate {
 
-    // static void checkIfFits(int height, int width) {
-    //     if (height <= 45 && width <= 60) {
-    //         throw new ArithmeticException("To Small: Will Fall Out");
-    //     } else {
-    //         System.out.println("Big Nuff");
-    //     }
-    // }
+    static void checkIfFits(int height, int width) {
+        if (height <= 45 && width <= 60) {
+            throw new ArithmeticException("To Small: Will Fall Out");
+        } else {
+            System.out.println("Big Nuff");
+        }
+    }
+    
+    static void checkLetters(String password) {
+            for (int i = 0; i < password.length(); i++) {
+            char c = password.charAt(i);
+            // Process char
+        }
+    }
 
     public static void main(String[] args) {
         String wordOne = new String("");
@@ -20,11 +27,8 @@ public class Obfuscate {
         cars.add("Ford");
         cars.add("Mazda");
         System.out.println(cars);
-        //will need ^v these
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            // Process char
-        }
+        //will need  this
+
 
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter your first word");
