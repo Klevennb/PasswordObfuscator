@@ -5,8 +5,6 @@ public class Obfuscate {
     static void checkIfFits(String password) {
         if (password.length < 5 ) {
             throw new ArithmeticException("To Small: Will Fall Out");
-        } else {
-            System.out.println("Big Nuff");
         }
     }
     
